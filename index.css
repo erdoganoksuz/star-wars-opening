@@ -1,0 +1,33 @@
+* {
+    border: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-position: center;
+    height: 100vh;
+    background-image: url(background-stars.jpg)
+}
+
+@keyframes text {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+.wrapper .text {
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: text;
+    animation-duration: 10s;
+}

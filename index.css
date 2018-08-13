@@ -9,7 +9,7 @@
 body {
     width: 100%;
     height: 100%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -49,7 +49,6 @@ body {
 }
 
 .wrapper .text {
-    color: white;
     color: #FFEB3B;
     opacity: 0;
     font-size: 40px;
@@ -60,7 +59,7 @@ body {
     line-height: 50px;
     animation-delay: 8s;
     animation-name: text;
-    overflow:hidden;
+    overflow: hidden;
     animation-duration: 70s;
 }
 
